@@ -1,0 +1,72 @@
+/* Selector Universal*/
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+/*Selector de clases*/
+
+
+/* Selector de id*/
+#contenedor{
+    background-color: bisque;
+    width: 900px;
+    height: 1000px;
+    max-width: 0 auto;
+
+}
+#encabezado{
+    height: 15%;
+    background-color: rgb(230,200,149);
+    margin: 1em auto;
+}
+
+#menu{
+    background-color: rgb(171,161,134);
+    height: 5%;
+    margin: 1em auto;
+}
+
+#seccion{
+    background-color: rgb(151,158,54);
+    width: 64%;
+    height: 35%;
+    margin: 0.5em auto;
+    float: left;
+    margin-left: 2px;
+}
+
+#aseccion{
+    height: 35%;
+    width: 35%;
+    background-color: rgb(190,193,79);
+    margin: 0.5em;
+    float: right;
+}
+
+#pie{
+    background-color: rgb(230,200,149);
+    height: 10%;
+    background-color: rgb(230,200,149);
+    border-radius: 0.5em;
+    text-align: center;
+
+}
+
+/*Selector de etiqueta*/
+ul{
+    text-align: center;
+}
+
+li{
+    display: inline;
+    padding-left:6px;
+    padding-right: 6px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
